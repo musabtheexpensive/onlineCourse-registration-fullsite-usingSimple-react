@@ -1,0 +1,98 @@
+[
+    {
+        "Image": "https://example.com/c.png",
+        "Course Name": "Introduction to C Programming",
+        "Description": "Learn the basics of C programming language.",
+        "Price": "$49.99",
+        "Credit": 3,
+        "Button": "Select"
+    },
+    {
+        "Image": "https://example.com/csharp.png",
+        "Course Name": "Advanced C# Development",
+        "Description": "Explore advanced C# and .NET development techniques.",
+        "Price": "$79.99",
+        "Credit": 4,
+        "Button": "Select"
+    },
+    {
+        "Image": "https://example.com/cpp.png",
+        "Course Name": "C++ Programming Mastery",
+        "Description": "Master C++ programming with practical examples.",
+        "Price": "$89.99",
+        "Credit": 5,
+        "Button": "Select"
+    },
+    {
+        "Image": "https://example.com/python.png",
+        "Course Name": "Python for Data Science",
+        "Description": "Learn Python for data analysis and visualization.",
+        "Price": "$69.99",
+        "Credit": 4,
+        "Button": "Select"
+    },
+    {
+        "Image": "https://example.com/htmlcss.png",
+        "Course Name": "Web Development with HTML and CSS",
+        "Description": "Build modern websites using HTML and CSS.",
+        "Price": "$59.99",
+        "Credit": 3,
+        "Button": "Select"
+    },
+    {
+        "Image": "https://example.com/javascript.png",
+        "Course Name": "JavaScript Fundamentals",
+        "Description": "Get started with interactive web development using JavaScript.",
+        "Price": "$69.99",
+        "Credit": 4,
+        "Button": "Select"
+    },
+    {
+        "Image": "https://example.com/ds.png",
+        "Course Name": "Data Structures and Algorithms",
+        "Description": "Master data structures and algorithms for coding interviews.",
+        "Price": "$99.99",
+        "Credit": 6,
+        "Button": "Select"
+    },
+    {
+        "Image": "https://example.com/ml.png",
+        "Course Name": "Machine Learning with Python",
+        "Description": "Explore machine learning concepts using Python.",
+        "Price": "$129.99",
+        "Credit": 7,
+        "Button": "Select"
+    },
+    {
+        "Image": "https://example.com/digitalmarketing.png",
+        "Course Name": "Digital Marketing Strategy",
+        "Description": "Develop effective digital marketing strategies for businesses.",
+        "Price": "$79.99",
+        "Credit": 4,
+        "Button": "Select"
+    },
+    {
+        "Image": "https://example.com/finance.png",
+        "Course Name": "Financial Management Basics",
+        "Description": "Learn financial management and budgeting essentials.",
+        "Price": "$59.99",
+        "Credit": 3,
+        "Button": "Select"
+    },
+    {
+        "Image": "https://example.com/graphicdesign.png",
+        "Course Name": "Graphic Design Essentials",
+        "Description": "Master the basics of graphic design and visual communication.",
+        "Price": "$69.99",
+        "Credit": 4,
+        "Button": "Select"
+    },
+    {
+        "Image": "https://example.com/ai.png",
+        "Course Name": "Introduction to Artificial Intelligence",
+        "Description": "Explore the world of artificial intelligence and its applications.",
+        "Price": "$89.99",
+        "Credit": 5,
+        "Button": "Select"
+    }
+]

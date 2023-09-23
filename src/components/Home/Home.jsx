@@ -25,7 +25,7 @@ const Home = () => {
       price=price+one.Price
     });
     setAllPrice(price);
-    // setSelectCourse([...selectCourse, course]);
+    // setSelectCourse([...selectCourse, course]); 
      */
     let count = course.Credit;
     if (isExist) {

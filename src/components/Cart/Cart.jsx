@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
@@ -17,9 +18,9 @@ const Cart = ({ selectCourse, remaining, totalCost }) => {
         ))}
       </ol>
       <hr />
-      <h5>Total Credit Hour :{totalCost}</h5>
+      <h5>Total Credit Hour: 20</h5>
       
-      <h3>Total Price:{selectCourse.length}</h3>
+      <h3>Total Price:{selectCourse.Price}</h3>
     </div>
   );
 };

@@ -8,11 +8,17 @@ body{
     background-attachment: fixed; */
 }
 
-.card, .course-card{
+.card{
     width: 280px;
     height: 390px;
     border: 1px solid gray;
 } 
+.course-card{
+    width: 290px;
+    height: 430px;
+    border: 3px solid grey;
+    border-radius: 2px;
+}
 .photo{
     width: 275px;
     height: 140px;
@@ -26,11 +32,17 @@ body{
     background-color: aqua;
 }
 .home-container{
-    display: flex;
+     display: flex;
+     
 }
 .card-container{
     width: 600px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
+}
+.h3-style{
+    font: bold;
+    font-style: italic;
+    font-size: large;
 }

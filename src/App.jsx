@@ -6,8 +6,6 @@ function App() {
     <>
     
       <h1>Course Registration</h1>
-      <hr />
-      <br />
       <Home></Home>
      
     </>

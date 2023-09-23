@@ -4,20 +4,22 @@
 import React from "react";
 import "./Cart.css";
 
-const Cart = ({ selectActor,remaining,totalCost }) => {
-  console.log(selectActor);
+const Cart = ({ selectCourse, remaining, totalCost }) => {
+  console.log(selectCourse);
   return (
     <div className="course-card">
-     
-     
-      {selectActor.map((actor) => (
-       <ol key={actor.id}>
-         <li>{actor.Name}</li>
-       </ol>
-      ))}
-       <h5>Remaining:{remaining}</h5>
-      <h5>TotalCost:{totalCost}</h5>
-       <h3>Total Price:{selectActor.length}</h3>
+      <h5>Credit Hour Remaining :{remaining}</h5>
+      <hr />
+      <h3 className="h3-style">Course Name</h3>
+      <ol>
+        {selectCourse.map((course) => (
+          <li key={course.id}>{course.Name}</li>
+        ))}
+      </ol>
+      <hr />
+      <h5>Total Credit Hour :{totalCost}</h5>
+      
+      <h3>Total Price:{selectCourse.length}</h3>
     </div>
   );
 };
